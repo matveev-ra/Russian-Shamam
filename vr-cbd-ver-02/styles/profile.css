@@ -1,0 +1,1059 @@
+.Basket {
+  margin: 88px 0;
+}
+
+.BasketIN {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 38px;
+}
+
+.BasketIN .Itogo {
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.BasketIN .Itogo .allsumm {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #756e6e;
+  text-align: right;
+  margin-bottom: 24px;
+}
+
+.BasketIN .hd {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #756e6e;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.BasketIN .btnblock .btn-shadow2 {
+  margin: 60px auto 30px;
+}
+
+.BasketTovar {
+  margin-top: 50px;
+}
+
+.BasketTovar .E {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.BasketTovar .E .Desc {
+  width: 40%;
+}
+
+.BasketTovar .E .Desc .hdtovar {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #020202;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.BasketTovar .E .Desc .hdtovar2 {
+  margin-top: 10px;
+}
+
+.BasketTovar .E .Desc .vidtovar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.BasketTovar .E .Desc .vidtovar .labe {
+  background: #F4F4F4;
+  border: 1px solid #D6D6D6;
+  border-radius: 4px;
+  color: #A7A7A7;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  padding: 5px 15px;
+  display: block;
+  float: left;
+}
+
+.BasketTovar .E .Desc .vidtovar .labe + .labe {
+  margin-left: 5px;
+}
+
+.BasketTovar .E .Desc .vidtovar .labe.active {
+  background: #761a12;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.BasketTovar .E .Desc .vidtovar .labe:hover {
+  cursor: pointer;
+  background: #761a12;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.BasketTovar .E .Desc .vidtovar2 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #756e6e;
+  margin-top: 10px;
+}
+
+.BasketTovar .E .Desc .tipprice {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #756e6e;
+}
+
+.BasketTovar .E .Desc .tipprice span {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.BasketTovar .E .Price {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #020202;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.BasketTovar .E .Price span {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #756e6e;
+  display: block;
+}
+
+.BasketTovar .E .Count {
+  margin-top: 10px;
+}
+
+.BasketTovar .E .Count .Number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-radius: 29px;
+  border: 2px solid #e6e6e6;
+  padding: 10px 20px;
+}
+
+.BasketTovar .E .Count .Number .pole input {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #8F8F8F;
+  border: none;
+  width: 20px;
+  margin-top: 8px;
+}
+
+.BasketTovar .E .Count .Number .up-down .plus,
+.BasketTovar .E .Count .Number .up-down .minus {
+  width: 8px;
+  height: 5px;
+}
+
+.BasketTovar .E .Count .Number .up-down .plus:hover,
+.BasketTovar .E .Count .Number .up-down .minus:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 1px #000 inset;
+  box-shadow: 0 0 1px #000 inset;
+}
+
+.BasketTovar .E .Count .Number .up-down .minus {
+  background: url("../images/down.png") center 5px no-repeat;
+  padding: 5px 10px  10px;
+}
+
+.BasketTovar .E .Count .Number .up-down .plus {
+  background: url("../images/up.png") center bottom 5px no-repeat;
+  padding: 10px 10px  5px;
+}
+
+.BasketTovar .E .summa {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #020202;
+  margin-top: 25px;
+}
+
+.btn-shadow2 a {
+  background: #984217;
+  font-size: 15px;
+  letter-spacing: normal;
+}
+
+.btn-shadow2:before {
+  border: 1px solid #984217;
+}
+
+.btn-shadow3 a {
+  background: #487e3a;
+  font-size: 15px;
+  letter-spacing: normal;
+}
+
+.btn-shadow3:before {
+  border: 1px solid #487e3a;
+}
+
+.UsCabinet {
+  margin: 88px 0;
+}
+
+.UsCabinetIN {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 38px;
+}
+
+.CabinetTop {
+  border-bottom: 1px solid #e3e3e3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.UserTabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  margin: 0px 0 20px;
+  width: 80%;
+}
+
+.UserTabs .tab {
+  background: #F4F4F4;
+  border: 1px solid #D6D6D6;
+  border-radius: 4px;
+  color: #A7A7A7;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 8px 25px;
+  display: block;
+  float: left;
+}
+
+.UserTabs .tab + .tab {
+  margin-left: 5px;
+}
+
+.UserTabs .tab.active {
+  background: #761a12;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.UserTabs .tab:hover {
+  cursor: pointer;
+  background: #761a12;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.BasketBtn {
+  width: 110px;
+}
+
+.BasketBtn a {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  display: block;
+  border-radius: 3.5px;
+  background: #487e3a;
+  border: 1px solid #256415;
+  padding: 8px 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.BasketBtn a:hover {
+  background: #256415;
+}
+
+.CabinetCont {
+  display: none;
+}
+
+.CabinetCont .hd {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #756e6e;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.CabinetCont.active {
+  display: block;
+}
+
+.CabinetContIn {
+  position: relative;
+  margin: 50px 0 20px 0;
+}
+
+.FormUser {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.FormUser .e {
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.FormUser .e input {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000;
+  background: #fff;
+  border: 2px solid #E5E5E5;
+  border-radius: 100px;
+  height: 60px;
+  padding-left: 30px;
+  width: 100%;
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+
+.FormUser .e input.checkbox {
+  height: 15px;
+  width: 15px;
+  line-height: 13px;
+  float: left;
+  overflow: hidden;
+  margin: 0 15px 0 0;
+}
+
+.FormUser .e span {
+  display: block;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  overflow: hidden;
+  text-align: left;
+  color: #000;
+}
+
+.FormUser .e label {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #B4B4B4;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.FormUser .e label.active {
+  top: -6px;
+  color: #756E6E;
+  background-color: white;
+  width: auto;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 0 5px;
+}
+
+.FormUser .e2 {
+  margin: 20px 0 0 40px;
+}
+
+.FormUser .btnsave {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.FormUser .btnsave a {
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+  text-decoration: none;
+  border-radius: 24px;
+  background: #761a12;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  padding: 15px 70px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.FormUser .btnsave a:hover {
+  background: #580000;
+}
+
+.Products-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  height: 360px;
+  overflow: hidden;
+}
+
+.Products-user.minus {
+  height: auto;
+}
+
+.more-show-tovar {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #000;
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+.more-show-tovar:hover {
+  cursor: pointer;
+}
+
+.more-show-tovar span {
+  font-size: 15px;
+  position: relative;
+  top: 2px;
+}
+
+.more-show-tovar span::before {
+  display: inline-block;
+  font: normal normal normal 24px/1 "Material Design Icons";
+  font-size: 15px;
+  content: "\F140";
+}
+
+.more-show-tovar.minus span:before {
+  content: "\f143";
+}
+
+.Order {
+  margin: 88px 0;
+}
+
+.OrderIN {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 38px;
+}
+
+.OrderIN .Itogo {
+  border-bottom: 1px solid #e3e3e3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.OrderIN .Itogo .allsumm {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #756e6e;
+  margin-bottom: 24px;
+  width: 50%;
+}
+
+.OrderIN .Itogo .btn-order {
+  width: 50%;
+  text-align: right;
+}
+
+.OrderIN .Itogo .btn-order a {
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+  border-radius: 19px;
+  background: #487e3a;
+  padding: 0px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 38px;
+  letter-spacing: 0.15em;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.OrderIN .Itogo .btn-order a:hover {
+  background: #256415;
+}
+
+.OrderIN .hd {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #756e6e;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.OrderIN .btnblock .btn-shadow3 {
+  margin: 40px auto 30px;
+}
+
+.OrderInfo .E {
+  border-bottom: 1px solid #e3e3e3;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.OrderInfo .E:last-child {
+  border: none;
+}
+
+.OrderInfo .E .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.OrderInfo .E .top .desc {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #020202;
+}
+
+.OrderInfo .E .top .change a {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #756e6e;
+  text-decoration: none;
+}
+
+.OrderInfo .E .top .change a:hover {
+  text-decoration: underline;
+}
+
+.OrderInfo .E .e {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.OrderInfo .E .e select {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: 2px solid #E6E6E6;
+  border-radius: 100px;
+  padding: 0 10px 0 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #ffffff url("../images/select.svg") 98% 22px no-repeat;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #B4B4B4;
+}
+
+.OrderInfo .E .e select::-ms-expand {
+  display: none;
+}
+
+.OrderInfo .E .e select option {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  padding: 0px 15px 0 20px;
+  height: 30px;
+  color: #000;
+}
+
+.OrderInfo .E .e input {
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  border: 2px solid #E6E6E6;
+  border-radius: 100px;
+  width: 100%;
+  color: #000;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0 60px 0 30px;
+}
+
+.OrderInfo .E .e label {
+  position: absolute;
+  top: 17px;
+  left: 30px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #B4B4B4;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.OrderInfo .E .e label.active {
+  top: -6px;
+  left: 25px;
+  color: #756E6E;
+  background-color: white;
+  width: auto;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 0 5px;
+}
+
+.FormTabs .FormTab {
+  text-align: center;
+}
+
+.FormTabs .FormTab .tab {
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  color: #756e6e;
+  margin: 0 10px 10px;
+}
+
+.FormTabs .FormTab .tab.active,
+.FormTabs .FormTab .tab:hover {
+  color: #000;
+  border-bottom: 2px solid #efa424;
+  cursor: pointer;
+}
+
+.FormTabs .FormTabContent .FormTabCont {
+  display: none;
+}
+
+.FormTabs .FormTabContent .FormTabCont p {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #756e6e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.FormTabs .FormTabContent .FormTabCont.active {
+  display: block;
+}
+
+.FormTabs .FormTabContent .FormTabCont form {
+  margin-top: 40px;
+}
+
+.FormaThank {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 52px;
+  z-index: 9999;
+  opacity: 1;
+  width: 800px;
+  margin: 0px auto;
+  padding: 90px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.FormaThank .close {
+  font-size: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  top: -7px;
+  right: 5px;
+  font-weight: normal;
+  opacity: 0.6;
+}
+
+.FormaThank .hd {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 54px;
+  color: #000;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.FormaThank p {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #756e6e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.FormaThank .btnform {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.FormaThank .btnform a {
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+  padding: 10px 20px;
+  border-radius: 19px;
+  background: #487e3a;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.FormaThank .btnform a:hover {
+  background: #256415;
+}
+
+/*# sourceMappingURL=profile.css.map */
+
+@media only screen and (max-width: 992px) {
+  .BasketTovar .E .Count .Number {
+    margin-top: 5px;
+  }
+
+  .UserTabs {
+    width: 100%;
+  }
+
+  .BasketBtn {
+    display: none;
+  }
+
+  .FormaThank {
+    width: 90%;
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Basket {
+    margin: 20px 0 40px;
+  }
+
+  .BasketIN {
+    padding: 15px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .BasketIN .Itogo .allsumm {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+
+  .BasketIN .hd {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 20px;
+  }
+
+  .BasketTovar .E .Img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .BasketTovar .E .Desc {
+    width: 100%;
+  }
+
+  .BasketTovar .E .Desc .hdtovar {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .BasketTovar .E .Desc .tipprice {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .BasketTovar .E .Desc .tipprice span {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .BasketTovar .E .Price {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .BasketTovar .E .Count .Number {
+    padding: 5px 10px;
+    margin: 5px 10px 0;
+  }
+
+  .UsCabinet {
+    margin: 20px 0 40px;
+  }
+
+  .UsCabinetIN {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 15px 20px;
+  }
+
+  .CabinetTop {
+    border: none;
+  }
+
+  .UserTabs .tab {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 8px 18px;
+  }
+
+  .CabinetCont .hd {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 20px;
+  }
+
+  .CabinetContIn {
+    margin-top: 40px;
+  }
+
+  .FormUser .e input {
+    height: 40px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .FormUser .e label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    top: 11px;
+    left: 25px;
+  }
+
+  .FormUser .e2 {
+    margin: 20px 0 0 15px;
+  }
+
+  .FormUser .btnsave {
+    margin-top: 30px;
+  }
+
+  .Order {
+    margin: 20px 0 40px;
+  }
+
+  .OrderIN {
+    padding: 15px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .OrderIN .Itogo {
+    padding-bottom: 10px;
+  }
+
+  .OrderIN .Itogo .allsumm {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  .OrderIN .Itogo .btn-order a {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 8px 10px;
+  }
+
+  .OrderIN .hd {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 20px;
+  }
+
+  .OrderInfo .E {
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .OrderInfo .E .top {
+    margin-bottom: 10px;
+  }
+
+  .OrderInfo .E .top .desc {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .OrderInfo .E .top .change a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .OrderInfo .E .e select {
+    background: #ffffff url("../images/select.svg") 95% 15px no-repeat;
+    height: 35px;
+  }
+
+  .OrderInfo .E .e input {
+    height: 35px;
+  }
+
+  .FormTabs .FormTab .tab {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .FormTabs .FormTabContent .FormTabCont form {
+    margin-top: 20px;
+  }
+
+  .FormaThank .hd {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .FormaThank p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .FormaThank .hd {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .FormaThank .btnform a {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .btn-shadow2 {
+    width: 200px;
+  }
+
+  .btn-shadow2 a {
+    width: 200px;
+  }
+
+  .btn-shadow2:before {
+    width: 200px;
+  }
+
+  .btn-shadow3 {
+    width: 200px;
+  }
+
+  .btn-shadow3 a {
+    width: 200px;
+  }
+
+  .btn-shadow3:before {
+    width: 200px;
+  }
+}

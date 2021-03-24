@@ -1,0 +1,20 @@
+@mixin fontN($fz,$lh) {
+  font-weight: normal;
+  font-size: $fz;
+  line-height: $lh;
+}
+@mixin fontB($fz,$lh) {
+  font-weight: bold;
+  font-size: $fz;
+  line-height: $lh;
+}
+@mixin font600($fz,$lh) {
+  font-weight: 600;
+  font-size: $fz;
+  line-height: $lh;
+}
+@mixin font500($fz,$lh) {
+  font-weight: 500;
+  font-size: $fz;
+  line-height: $lh;
+}
